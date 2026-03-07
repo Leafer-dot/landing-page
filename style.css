@@ -4,6 +4,9 @@ body{
     flex-direction: column;
     font-family: Roboto, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+
 }
 
 p{
@@ -99,14 +102,45 @@ a{
 .sign-button{
     background-color: #3882f6;
     border: 0;
-    padding: 5px 20px;
-    border-radius: 5px;
+    padding: 6px 28px;
+    border-radius: 6px;
     color: white;
     font-weight: 700;
+    font-size: 15px;
 }
 
 .sign-button.section{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    padding: 45px 26px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
     justify-content: center;
+    padding: 80px;
+}
+
+.description{
+    color: #c4c6ca;
+    font-weight: 400;
+}
+
+.sign-button .two{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
