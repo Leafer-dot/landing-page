@@ -11,28 +11,21 @@ p{
     margin: 0;
 }
 
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header-section{
+    background: #1F2937; 
+    padding-top: 20px; 
+}
+
 .header{
-    
-}
-
-.header,
-.hero{
-    display: flex;
-    align-items: center;
-}
-
-.hero{
-
-}
-
-.main-text,
-.secondary-text,
-.sign-button{
-    margin-bottom: 10px;
-}
-
-.hero-text{
-    max-width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo{
@@ -40,21 +33,61 @@ p{
     color: #F9FAF8;
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
+.header-links{
+    display: flex; 
+    gap: 24px; 
+    list-style: none; 
 }
 
-.color{
-    background-color: #1F2937;
-    padding: 25px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
+.header-links a{
+    color: #9CA3AF; 
+    text-decoration: none;
+    font-size: 15px; 
 }
+
+.header-links a:hover{
+    color: white; 
+}
+ 
+.hero-section{ 
+    background: #1F2937; 
+    padding: 60px 0;
+}
+
+.hero{ 
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+ }
+
+.hero-text{ 
+    flex: 1; 
+}
+
+.hero h1 {  
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+ }
+
+.hero p { 
+    line-height: 1.5; 
+    margin-bottom: 24px; 
+    font-size: 18px;  
+    color: #c4c6ca;
+}
+
+.hero-image {
+    flex: 1; 
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
 
 .main-text{
     font-size: 48px;
@@ -63,26 +96,6 @@ ul{
     margin: 0;
 }
 
-.secondary-text{
-    font-size: 18px;  
-    color: #c4c6ca;
-    margin: 0;
-}
-
-a{
-    text-decoration: none;
-    color: #E5E7EB;
-}
-
-.hero{
-    justify-content: center;
-}
-
-.image{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
 
 .info-section{
     text-align: center;
@@ -104,7 +117,7 @@ a{
     color: #5e6063;
 }
 
-.color, .info-section, .quote-section, .container {
+.info-section, .quote-section, .container {
     flex: 1;
 }
 
@@ -164,7 +177,7 @@ a{
 
 }
 
-.container{
+#container{
     display: flex;
     align-items: center;
     justify-content: center;
