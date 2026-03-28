@@ -1,3 +1,6 @@
 # landing-page
 
-Photo by egeardaphotos: https://www.pexels.com/photo/classic-nissan-skyline-gtr-at-izmir-car-event-32777800/
+ Konstable. (2013, March 08). Theories of Aristarchus. World History Encyclopedia. https://www.worldhistory.org/image/1084/theories-of-aristarchus/
+ 
+ 
+
